@@ -1,0 +1,5 @@
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-04 02:25] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 02:25] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/? Status=404 NOT FOUND
+Timestamp=[2020-Mar-04 02:25] Addr=127.0.0.1 Method=GET Scheme=http Path=/health? Status=200 OK

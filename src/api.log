@@ -1,0 +1,275 @@
+[2020-Mar-03 13:35] 127.0.0.1 GET http /? 200 OK
+0||||2
+2|2|[]
+2|2|[]
+3|3|[2]
+3|3|[2]
+4|5|[2, 3]
+4|5|[2, 3]
+5|8|[2, 3, 5]
+5|8|[2, 3, 5]
+6|13|[2, 3, 5, 8]
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+[2020-Mar-03 13:35] 127.0.0.1 GET http /fib/11? 200 OK
+0||||2
+2|2|[]
+2|2|[]
+3|3|[2]
+3|3|[2]
+4|5|[2, 3]
+Fibonacci combinations for num: 5 is [[2, 3]]
+[2020-Mar-03 13:35] 127.0.0.1 GET http /fib/5? 200 OK
+0||||6
+6|13|[2, 3, 5, 8]
+6|13|[2, 3, 5, 8]
+7|21|[2, 3, 5, 8, 13]
+Fibonacci combinations for num: 20 is [[2, 5, 13], [2, 2, 3, 13], [2, 2, 8, 8], [2, 5, 5, 8], [5, 5, 5, 5], [2, 2, 3, 5, 8], [2, 3, 5, 5, 5], [3, 3, 3, 3, 8], [2, 2, 2, 3, 3, 8], [2, 2, 3, 3, 5, 5], [3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 3, 3, 3, 5], [2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+[2020-Mar-03 13:35] 127.0.0.1 GET http /fib/20? 200 OK
+0||||7
+7|21|[2, 3, 5, 8, 13]
+7|21|[2, 3, 5, 8, 13]
+8|34|[2, 3, 5, 8, 13, 21]
+Fibonacci combinations for num: 22 is [[2, 2, 5, 13], [3, 3, 3, 13], [3, 3, 8, 8], [2, 2, 2, 3, 13], [2, 2, 2, 8, 8], [2, 2, 5, 5, 8], [2, 5, 5, 5, 5], [3, 3, 3, 5, 8], [2, 2, 2, 3, 5, 8], [2, 2, 3, 5, 5, 5], [2, 3, 3, 3, 3, 8], [3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 3, 3, 5, 5], [2, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+[2020-Mar-03 13:35] 127.0.0.1 GET http /fib/22? 200 OK
+0||||8
+8|34|[2, 3, 5, 8, 13, 21]
+8|34|[2, 3, 5, 8, 13, 21]
+9|55|[2, 3, 5, 8, 13, 21, 34]
+0||||8
+8|34|[2, 3, 5, 8, 13, 21]
+8|34|[2, 3, 5, 8, 13, 21]
+9|55|[2, 3, 5, 8, 13, 21, 34]
+[2020-Mar-03 13:47] 127.0.0.1 GET http /? 200 OK
+[2020-Mar-03 13:47] 127.0.0.1 GET http /? 200 OK
+[2020-Mar-03 13:47] 127.0.0.1 GET http /? 200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+[2020-Mar-03 13:48] 127.0.0.1 GET http /fib/11? 200 OK
+Fibonacci combinations for num: 5 is [[2, 3]]
+[2020-Mar-03 13:48] 127.0.0.1 GET http /fib/5? 200 OK
+Fibonacci combinations for num: 8 is [[3, 5], [2, 3, 3], [2, 2, 2, 2]]
+[2020-Mar-03 13:48] 127.0.0.1 GET http /fib/8? 200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+[2020-Mar-03 13:49] 127.0.0.1 GET http /fib/11? 200 OK
+Fibonacci combinations for num: 22 is [[2, 2, 5, 13], [3, 3, 3, 13], [3, 3, 8, 8], [2, 2, 2, 3, 13], [2, 2, 2, 8, 8], [2, 2, 5, 5, 8], [2, 5, 5, 5, 5], [3, 3, 3, 5, 8], [2, 2, 2, 3, 5, 8], [2, 2, 3, 5, 5, 5], [2, 3, 3, 3, 3, 8], [3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 3, 3, 5, 5], [2, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+[2020-Mar-03 13:49] 127.0.0.1 GET http /fib/22? 200 OK
+Fibonacci combinations for num: 23 is [[2, 21], [2, 8, 13], [5, 5, 13], [2, 3, 5, 13], [2, 5, 8, 8], [5, 5, 5, 8], [2, 2, 3, 3, 13], [2, 2, 3, 8, 8], [2, 3, 5, 5, 8], [3, 5, 5, 5, 5], [2, 2, 2, 2, 2, 13], [2, 2, 3, 3, 5, 8], [2, 3, 3, 5, 5, 5], [3, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 5, 8], [2, 2, 2, 2, 5, 5, 5], [2, 2, 2, 3, 3, 3, 8], [2, 2, 3, 3, 3, 5, 5], [3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 3, 8], [2, 2, 2, 2, 2, 3, 5, 5], [2, 2, 2, 3, 3, 3, 3, 5], [2, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 3, 5], [2, 2, 2, 2, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3]]
+[2020-Mar-03 13:49] 127.0.0.1 GET http /fib/23? 200 OK
+Fibonacci combinations for num: 28 is [[2, 5, 21], [2, 13, 13], [2, 2, 3, 21], [2, 5, 8, 13], [5, 5, 5, 13], [2, 2, 3, 8, 13], [2, 2, 8, 8, 8], [2, 3, 5, 5, 13], [2, 5, 5, 8, 8], [5, 5, 5, 5, 8], [2, 2, 3, 3, 5, 13], [2, 2, 3, 5, 8, 8], [2, 3, 5, 5, 5, 8], [3, 3, 3, 3, 3, 13], [3, 3, 3, 3, 8, 8], [3, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 5, 13], [2, 2, 2, 3, 3, 3, 13], [2, 2, 2, 3, 3, 8, 8], [2, 2, 3, 3, 5, 5, 8], [2, 3, 3, 5, 5, 5, 5], [3, 3, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 3, 13], [2, 2, 2, 2, 2, 2, 8, 8], [2, 2, 2, 2, 2, 5, 5, 8], [2, 2, 2, 2, 5, 5, 5, 5], [2, 2, 2, 3, 3, 3, 5, 8], [2, 2, 3, 3, 3, 5, 5, 5], [2, 3, 3, 3, 3, 3, 3, 8], [3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 3, 5, 8], [2, 2, 2, 2, 2, 3, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 8], [2, 2, 2, 3, 3, 3, 3, 5, 5], [2, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 2, 2, 2, 3, 3, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 3, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+[2020-Mar-03 13:50] 127.0.0.1 GET http /fib/28? 200 OK
+timestamp=[2020-Mar-03 14:11] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:11] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:11] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:11] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:12] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:12] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 14:12] addr=127.0.0.1 method=GET scheme=http path=/fib/? Status=404 NOT FOUND
+timestamp=[2020-Mar-03 14:12] addr=127.0.0.1 method=GET scheme=http path=/health? Status=200 OK
+timestamp=[2020-Mar-03 15:50] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+timestamp=[2020-Mar-03 15:50] addr=127.0.0.1 method=GET scheme=http path=/fib/11? Status=200 OK
+Fibonacci combinations for num: 5 is [[2, 3]]
+timestamp=[2020-Mar-03 15:50] addr=127.0.0.1 method=GET scheme=http path=/fib/5? Status=200 OK
+timestamp=[2020-Mar-03 15:50] addr=127.0.0.1 method=GET scheme=http path=/fib/? Status=404 NOT FOUND
+timestamp=[2020-Mar-03 15:50] addr=127.0.0.1 method=GET scheme=http path=/health? Status=200 OK
+timestamp=[2020-Mar-03 16:45] addr=127.0.0.1 method=GET scheme=http path=/? Status=200 OK
+timestamp=[2020-Mar-03 16:45] addr=127.0.0.1 method=GET scheme=http path=/fib/? Status=404 NOT FOUND
+timestamp=[2020-Mar-03 16:45] addr=127.0.0.1 method=GET scheme=http path=/health? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+timestamp=[2020-Mar-03 16:45] addr=127.0.0.1 method=GET scheme=http path=/fib/11? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 17:03] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 17:03] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 17:06] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 17:48] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 17:48] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Fibonacci combinations for num: 40 is [[3, 3, 34], [2, 2, 2, 34], [3, 3, 13, 21], [3, 8, 8, 21], [2, 2, 2, 13, 21], [3, 3, 5, 8, 21], [3, 3, 8, 13, 13], [3, 8, 8, 8, 13], [8, 8, 8, 8, 8], [2, 2, 2, 5, 8, 21], [2, 2, 2, 8, 13, 13], [2, 2, 5, 5, 5, 21], [2, 2, 5, 5, 13, 13], [2, 3, 3, 3, 8, 21], [3, 3, 3, 5, 5, 21], [3, 3, 3, 5, 13, 13], [3, 3, 5, 8, 8, 13], [3, 5, 8, 8, 8, 8], [2, 2, 2, 2, 3, 8, 21], [2, 2, 2, 3, 5, 5, 21], [2, 2, 2, 3, 5, 13, 13], [2, 2, 2, 5, 8, 8, 13], [2, 2, 5, 5, 5, 8, 13], [2, 3, 3, 3, 3, 5, 21], [2, 3, 3, 3, 3, 13, 13], [2, 3, 3, 3, 8, 8, 13], [2, 3, 3, 8, 8, 8, 8], [2, 5, 5, 5, 5, 5, 13], [3, 3, 3, 5, 5, 8, 13], [3, 3, 5, 5, 8, 8, 8], [2, 2, 2, 2, 3, 3, 5, 21], [2, 2, 2, 2, 3, 3, 13, 13], [2, 2, 2, 2, 3, 8, 8, 13], [2, 2, 2, 2, 8, 8, 8, 8], [2, 2, 2, 3, 5, 5, 8, 13], [2, 2, 2, 5, 5, 8, 8, 8], [2, 2, 3, 3, 3, 3, 3, 21], [2, 2, 3, 5, 5, 5, 5, 13], [2, 2, 5, 5, 5, 5, 8, 8], [2, 3, 3, 3, 3, 5, 8, 13], [2, 3, 3, 3, 5, 8, 8, 8], [2, 5, 5, 5, 5, 5, 5, 8], [3, 3, 3, 3, 5, 5, 5, 13], [3, 3, 3, 5, 5, 5, 8, 8], [5, 5, 5, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 5, 21], [2, 2, 2, 2, 2, 2, 2, 13, 13], [2, 2, 2, 2, 2, 3, 3, 3, 21], [2, 2, 2, 2, 3, 3, 5, 8, 13], [2, 2, 2, 2, 3, 5, 8, 8, 8], [2, 2, 2, 3, 3, 5, 5, 5, 13], [2, 2, 2, 3, 5, 5, 5, 8, 8], [2, 2, 3, 3, 3, 3, 3, 8, 13], [2, 2, 3, 3, 3, 3, 8, 8, 8], [2, 2, 3, 5, 5, 5, 5, 5, 8], [2, 3, 3, 3, 3, 3, 5, 5, 13], [2, 3, 3, 3, 3, 5, 5, 8, 8], [2, 3, 5, 5, 5, 5, 5, 5, 5], [3, 3, 3, 3, 5, 5, 5, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 3, 21], [2, 2, 2, 2, 2, 2, 2, 5, 8, 13], [2, 2, 2, 2, 2, 2, 5, 5, 5, 13], [2, 2, 2, 2, 2, 3, 3, 3, 8, 13], [2, 2, 2, 2, 2, 3, 3, 8, 8, 8], [2, 2, 2, 2, 3, 3, 3, 5, 5, 13], [2, 2, 2, 2, 3, 3, 5, 5, 8, 8], [2, 2, 2, 3, 3, 5, 5, 5, 5, 8], [2, 2, 3, 3, 3, 3, 3, 3, 5, 13], [2, 2, 3, 3, 3, 3, 3, 5, 8, 8], [2, 2, 3, 3, 5, 5, 5, 5, 5, 5], [2, 3, 3, 3, 3, 3, 5, 5, 5, 8], [3, 3, 3, 3, 3, 3, 3, 3, 3, 13], [3, 3, 3, 3, 3, 3, 3, 3, 8, 8], [3, 3, 3, 3, 3, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 8, 13], [2, 2, 2, 2, 2, 2, 2, 2, 8, 8, 8], [2, 2, 2, 2, 2, 2, 2, 3, 5, 5, 13], [2, 2, 2, 2, 2, 2, 2, 5, 5, 8, 8], [2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 8], [2, 2, 2, 2, 2, 3, 3, 3, 3, 5, 13], [2, 2, 2, 2, 2, 3, 3, 3, 5, 8, 8], [2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 5, 5, 5, 8], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 13], [2, 2, 2, 3, 3, 3, 3, 3, 3, 8, 8], [2, 2, 2, 3, 3, 3, 5, 5, 5, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 5, 5, 8], [2, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5], [3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 13], [2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 8, 8], [2, 2, 2, 2, 2, 2, 2, 3, 5, 5, 5, 8], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 13], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 8, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 5, 5, 8], [2, 2, 2, 2, 3, 3, 3, 3, 5, 5, 5, 5], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 5, 8], [2, 2, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5], [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 13], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 13], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 8, 8], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5, 8], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 8], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5], [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 13], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 17:48] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/40? Status=200 OK
+Fibonacci combinations for num: 7 is [[2, 5], [2, 2, 3]]
+Timestamp=[2020-Mar-03 17:49] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/7? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 18:09] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 18:09] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:09] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Fibonacci combinations for num: 15 is [[2, 13], [2, 5, 8], [5, 5, 5], [2, 2, 3, 8], [2, 3, 5, 5], [2, 2, 3, 3, 5], [3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 5], [2, 2, 2, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:09] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/15? Status=200 OK
+Timestamp=[2020-Mar-03 18:09] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Fibonacci combinations for num: 18 is [[5, 13], [2, 3, 13], [2, 8, 8], [5, 5, 8], [2, 3, 5, 8], [3, 5, 5, 5], [2, 2, 3, 3, 8], [2, 3, 3, 5, 5], [2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 5, 5], [2, 2, 3, 3, 3, 5], [3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:10] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/18? Status=200 OK
+Fibonacci combinations for num: 20 is [[2, 5, 13], [2, 2, 3, 13], [2, 2, 8, 8], [2, 5, 5, 8], [5, 5, 5, 5], [2, 2, 3, 5, 8], [2, 3, 5, 5, 5], [3, 3, 3, 3, 8], [2, 2, 2, 3, 3, 8], [2, 2, 3, 3, 5, 5], [3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 3, 3, 3, 5], [2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:10] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/20? Status=200 OK
+Fibonacci combinations for num: 25 is [[2, 2, 21], [2, 2, 8, 13], [2, 5, 5, 13], [2, 2, 3, 5, 13], [2, 2, 5, 8, 8], [2, 5, 5, 5, 8], [3, 3, 3, 3, 13], [3, 3, 3, 8, 8], [5, 5, 5, 5, 5], [2, 2, 2, 3, 3, 13], [2, 2, 2, 3, 8, 8], [2, 2, 3, 5, 5, 8], [2, 3, 5, 5, 5, 5], [3, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 13], [2, 2, 2, 3, 3, 5, 8], [2, 2, 3, 3, 5, 5, 5], [2, 3, 3, 3, 3, 3, 8], [3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 5, 8], [2, 2, 2, 2, 2, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 8], [2, 2, 2, 3, 3, 3, 5, 5], [2, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 3, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:10] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/25? Status=200 OK
+Fibonacci combinations for num: 30 is [[2, 2, 5, 21], [2, 2, 13, 13], [3, 3, 3, 21], [2, 2, 2, 3, 21], [2, 2, 5, 8, 13], [2, 5, 5, 5, 13], [3, 3, 3, 8, 13], [3, 3, 8, 8, 8], [2, 2, 2, 3, 8, 13], [2, 2, 2, 8, 8, 8], [2, 2, 3, 5, 5, 13], [2, 2, 5, 5, 8, 8], [2, 5, 5, 5, 5, 8], [3, 3, 3, 3, 5, 13], [3, 3, 3, 5, 8, 8], [5, 5, 5, 5, 5, 5], [2, 2, 2, 3, 3, 5, 13], [2, 2, 2, 3, 5, 8, 8], [2, 2, 3, 5, 5, 5, 8], [2, 3, 3, 3, 3, 3, 13], [2, 3, 3, 3, 3, 8, 8], [2, 3, 5, 5, 5, 5, 5], [3, 3, 3, 3, 5, 5, 8], [2, 2, 2, 2, 2, 2, 5, 13], [2, 2, 2, 2, 3, 3, 3, 13], [2, 2, 2, 2, 3, 3, 8, 8], [2, 2, 2, 3, 3, 5, 5, 8], [2, 2, 3, 3, 5, 5, 5, 5], [2, 3, 3, 3, 3, 3, 5, 8], [3, 3, 3, 3, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 13], [2, 2, 2, 2, 2, 2, 2, 8, 8], [2, 2, 2, 2, 2, 2, 5, 5, 8], [2, 2, 2, 2, 2, 5, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 5, 8], [2, 2, 2, 3, 3, 3, 5, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 8], [2, 3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 5, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 8], [2, 2, 2, 2, 3, 3, 3, 3, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 5], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:10] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/30? Status=200 OK
+Fibonacci combinations for num: 33 is [[2, 2, 8, 21], [2, 5, 5, 21], [2, 5, 13, 13], [2, 2, 3, 5, 21], [2, 2, 3, 13, 13], [2, 2, 8, 8, 13], [2, 5, 5, 8, 13], [3, 3, 3, 3, 21], [5, 5, 5, 5, 13], [2, 2, 2, 3, 3, 21], [2, 2, 3, 5, 8, 13], [2, 2, 5, 8, 8, 8], [2, 3, 5, 5, 5, 13], [2, 5, 5, 5, 8, 8], [3, 3, 3, 3, 8, 13], [3, 3, 3, 8, 8, 8], [5, 5, 5, 5, 5, 8], [2, 2, 2, 2, 2, 2, 21], [2, 2, 2, 3, 3, 8, 13], [2, 2, 2, 3, 8, 8, 8], [2, 2, 3, 3, 5, 5, 13], [2, 2, 3, 5, 5, 8, 8], [2, 3, 5, 5, 5, 5, 8], [3, 3, 3, 3, 3, 5, 13], [3, 3, 3, 3, 5, 8, 8], [3, 5, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 8, 13], [2, 2, 2, 2, 2, 5, 5, 13], [2, 2, 2, 3, 3, 3, 5, 13], [2, 2, 2, 3, 3, 5, 8, 8], [2, 2, 3, 3, 5, 5, 5, 8], [2, 3, 3, 3, 3, 3, 3, 13], [2, 3, 3, 3, 3, 3, 8, 8], [2, 3, 3, 5, 5, 5, 5, 5], [3, 3, 3, 3, 3, 5, 5, 8], [2, 2, 2, 2, 2, 2, 3, 5, 13], [2, 2, 2, 2, 2, 2, 5, 8, 8], [2, 2, 2, 2, 2, 5, 5, 5, 8], [2, 2, 2, 2, 3, 3, 3, 3, 13], [2, 2, 2, 2, 3, 3, 3, 8, 8], [2, 2, 2, 2, 5, 5, 5, 5, 5], [2, 2, 2, 3, 3, 3, 5, 5, 8], [2, 2, 3, 3, 3, 5, 5, 5, 5], [2, 3, 3, 3, 3, 3, 3, 5, 8], [3, 3, 3, 3, 3, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 13], [2, 2, 2, 2, 2, 2, 2, 3, 8, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5, 8], [2, 2, 2, 2, 2, 3, 5, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 5, 8], [2, 2, 2, 3, 3, 3, 3, 5, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 8], [2, 3, 3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 13], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 3, 3, 5, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 8], [2, 2, 2, 2, 3, 3, 3, 3, 3, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 5], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:10] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/33? Status=200 OK
+Fibonacci combinations for num: 38 is [[2, 2, 34], [2, 2, 13, 21], [2, 2, 5, 8, 21], [2, 2, 8, 13, 13], [2, 5, 5, 5, 21], [2, 5, 5, 13, 13], [3, 3, 3, 8, 21], [2, 2, 2, 3, 8, 21], [2, 2, 3, 5, 5, 21], [2, 2, 3, 5, 13, 13], [2, 2, 5, 8, 8, 13], [2, 5, 5, 5, 8, 13], [3, 3, 3, 3, 5, 21], [3, 3, 3, 3, 13, 13], [3, 3, 3, 8, 8, 13], [3, 3, 8, 8, 8, 8], [5, 5, 5, 5, 5, 13], [2, 2, 2, 3, 3, 5, 21], [2, 2, 2, 3, 3, 13, 13], [2, 2, 2, 3, 8, 8, 13], [2, 2, 2, 8, 8, 8, 8], [2, 2, 3, 5, 5, 8, 13], [2, 2, 5, 5, 8, 8, 8], [2, 3, 3, 3, 3, 3, 21], [2, 3, 5, 5, 5, 5, 13], [2, 5, 5, 5, 5, 8, 8], [3, 3, 3, 3, 5, 8, 13], [3, 3, 3, 5, 8, 8, 8], [5, 5, 5, 5, 5, 5, 8], [2, 2, 2, 2, 2, 2, 5, 21], [2, 2, 2, 2, 2, 2, 13, 13], [2, 2, 2, 2, 3, 3, 3, 21], [2, 2, 2, 3, 3, 5, 8, 13], [2, 2, 2, 3, 5, 8, 8, 8], [2, 2, 3, 3, 5, 5, 5, 13], [2, 2, 3, 5, 5, 5, 8, 8], [2, 3, 3, 3, 3, 3, 8, 13], [2, 3, 3, 3, 3, 8, 8, 8], [2, 3, 5, 5, 5, 5, 5, 8], [3, 3, 3, 3, 3, 5, 5, 13], [3, 3, 3, 3, 5, 5, 8, 8], [3, 5, 5, 5, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 21], [2, 2, 2, 2, 2, 2, 5, 8, 13], [2, 2, 2, 2, 2, 5, 5, 5, 13], [2, 2, 2, 2, 3, 3, 3, 8, 13], [2, 2, 2, 2, 3, 3, 8, 8, 8], [2, 2, 2, 3, 3, 3, 5, 5, 13], [2, 2, 2, 3, 3, 5, 5, 8, 8], [2, 2, 3, 3, 5, 5, 5, 5, 8], [2, 3, 3, 3, 3, 3, 3, 5, 13], [2, 3, 3, 3, 3, 3, 5, 8, 8], [2, 3, 3, 5, 5, 5, 5, 5, 5], [3, 3, 3, 3, 3, 5, 5, 5, 8], [2, 2, 2, 2, 2, 2, 2, 3, 8, 13], [2, 2, 2, 2, 2, 2, 2, 8, 8, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5, 13], [2, 2, 2, 2, 2, 2, 5, 5, 8, 8], [2, 2, 2, 2, 2, 5, 5, 5, 5, 8], [2, 2, 2, 2, 3, 3, 3, 3, 5, 13], [2, 2, 2, 2, 3, 3, 3, 5, 8, 8], [2, 2, 2, 2, 5, 5, 5, 5, 5, 5], [2, 2, 2, 3, 3, 3, 5, 5, 5, 8], [2, 2, 3, 3, 3, 3, 3, 3, 3, 13], [2, 2, 3, 3, 3, 3, 3, 3, 8, 8], [2, 2, 3, 3, 3, 5, 5, 5, 5, 5], [2, 3, 3, 3, 3, 3, 3, 5, 5, 8], [3, 3, 3, 3, 3, 3, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 13], [2, 2, 2, 2, 2, 2, 2, 3, 5, 8, 8], [2, 2, 2, 2, 2, 2, 3, 5, 5, 5, 8], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 13], [2, 2, 2, 2, 2, 3, 3, 3, 3, 8, 8], [2, 2, 2, 2, 2, 3, 5, 5, 5, 5, 5], [2, 2, 2, 2, 3, 3, 3, 3, 5, 5, 8], [2, 2, 2, 3, 3, 3, 3, 5, 5, 5, 5], [2, 2, 3, 3, 3, 3, 3, 3, 3, 5, 8], [2, 3, 3, 3, 3, 3, 3, 3, 5, 5, 5], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 13], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 13], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 8, 8], [2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5, 8], [2, 2, 2, 2, 2, 2, 3, 3, 5, 5, 5, 5], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5, 8], [2, 2, 2, 2, 3, 3, 3, 3, 3, 5, 5, 5], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 8], [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 5, 5], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 13], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 8], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 5, 5], [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5], [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:11] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/38? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 18:21] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:21] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Timestamp=[2020-Mar-03 18:21] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/? Status=404 NOT FOUND
+Timestamp=[2020-Mar-03 18:21] Addr=127.0.0.1 Method=GET Scheme=http Path=/health? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 18:32] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Cache Info: CacheInfo(hits=0, misses=0, maxsize=128, currsize=0)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:33] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 18:47] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Cache Info: CacheInfo(hits=7, misses=6, maxsize=None, currsize=6)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 18:47] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Cache Info: CacheInfo(hits=5, misses=7, maxsize=None, currsize=7)
+Fibonacci combinations for num: 18 is [[5, 13], [2, 3, 13], [2, 8, 8], [5, 5, 8], [2, 3, 5, 8], [3, 5, 5, 5], [2, 2, 3, 3, 8], [2, 3, 3, 5, 5], [2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 5, 5], [2, 2, 3, 3, 3, 5], [3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:47] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/18? Status=200 OK
+Cache Info: CacheInfo(hits=4, misses=7, maxsize=None, currsize=7)
+Fibonacci combinations for num: 20 is [[2, 5, 13], [2, 2, 3, 13], [2, 2, 8, 8], [2, 5, 5, 8], [5, 5, 5, 5], [2, 2, 3, 5, 8], [2, 3, 5, 5, 5], [3, 3, 3, 3, 8], [2, 2, 2, 3, 3, 8], [2, 2, 3, 3, 5, 5], [3, 3, 3, 3, 3, 5], [2, 2, 2, 2, 2, 2, 8], [2, 2, 2, 2, 2, 5, 5], [2, 2, 2, 3, 3, 3, 5], [2, 3, 3, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 3, 5], [2, 2, 2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 18:47] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/20? Status=200 OK
+Timestamp=[2020-Mar-03 18:47] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 19:16] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 19:21] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Creating Flask API
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Cache Info: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Cache Info: CacheInfo(hits=3, misses=4, maxsize=None, currsize=4)
+Fibonacci combinations for num: 5 is [[2, 3]]
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/5? Status=200 OK
+Cache Info: CacheInfo(hits=5, misses=7, maxsize=None, currsize=7)
+Fibonacci combinations for num: 16 is [[3, 13], [8, 8], [3, 5, 8], [2, 3, 3, 8], [3, 3, 5, 5], [2, 2, 2, 2, 8], [2, 2, 2, 5, 5], [2, 3, 3, 3, 5], [2, 2, 2, 2, 3, 5], [2, 2, 3, 3, 3, 3], [2, 2, 2, 2, 2, 3, 3], [2, 2, 2, 2, 2, 2, 2, 2]]
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/16? Status=200 OK
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/? Status=404 NOT FOUND
+Timestamp=[2020-Mar-03 20:44] Addr=127.0.0.1 Method=GET Scheme=http Path=/health? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 21:13] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 21:16] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 21:20] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 21:20] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 21:32] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 21:33] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 21:37] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 21:37] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/? Status=404 NOT FOUND
+Timestamp=[2020-Mar-03 21:37] Addr=127.0.0.1 Method=GET Scheme=http Path=/health? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 22:01] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 22:01] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 22:01] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-03 22:06] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 23:38] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Cache Info: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 23:38] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-03 23:51] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Cache Info: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-03 23:52] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-04 01:49] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Cache Info: CacheInfo(hits=0, misses=0, maxsize=None, currsize=0)
+Fibonacci combinations for num: 11 is [[3, 8], [3, 3, 5], [2, 2, 2, 5], [2, 3, 3, 3], [2, 2, 2, 2, 3]]
+Timestamp=[2020-Mar-04 01:49] Addr=127.0.0.1 Method=GET Scheme=http Path=/fib/11? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK
+Running Flask API on host:0.0.0.0
+Running Flask API on host:0.0.0.0
+Timestamp=[2020-Mar-04 01:50] Addr=127.0.0.1 Method=GET Scheme=http Path=/? Status=200 OK

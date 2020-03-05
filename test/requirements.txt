@@ -1,0 +1,4 @@
+Flask==1.0.2
+py-healthcheck
+requests
+tox==2.5.0

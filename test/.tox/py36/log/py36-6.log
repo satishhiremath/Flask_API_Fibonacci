@@ -1,0 +1,32 @@
+actionid: py36
+msg: envreport
+cmdargs: ['/home/satish/Repos/Flask/assessment_api/test/.tox/py36/bin/pip', 'freeze']
+env: {'CLUTTER_IM_MODULE': 'xim', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_PAPER': 'de_DE.UTF-8', 'LC_MONETARY': 'de_DE.UTF-8', 'XDG_MENU_PREFIX': 'gnome-', 'SNAP_USER_DATA': '/home/satish/snap/pycharm-community/179', 'LANG': 'en_US.UTF-8', 'DISPLAY': ':0', 'OLDPWD': '/home/satish/Repos/Flask', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SNAP_REVISION': '179', 'SNAP_ARCH': 'amd64', 'SNAP_INSTANCE_KEY': '', 'USERNAME': 'satish', 'XDG_VTNR': '2', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3551', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'de_DE.UTF-8', 'XDG_SESSION_ID': '2', 'SNAP_USER_COMMON': '/home/satish/snap/pycharm-community/common', 'USER': 'satish', 'DESKTOP_SESSION': 'ubuntu', 'QT4_IM_MODULE': 'xim', 'TEXTDOMAINDIR': '/usr/share/locale/', 'PWD': '/home/satish/Repos/Flask/assessment_api/test', 'HOME': '/home/satish', 'TEXTDOMAIN': 'im-config', 'SNAP': '/snap/pycharm-community/179', 'SSH_AGENT_PID': '3125', 'QT_ACCESSIBILITY': '1', 'SNAP_COMMON': '/var/snap/pycharm-community/common', 'XDG_SESSION_TYPE': 'x11', 'SNAP_NAME': 'pycharm-community', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_INSTANCE_NAME': 'pycharm-community', 'SNAP_DATA': '/var/snap/pycharm-community/179', 'XDG_SESSION_DESKTOP': 'ubuntu', 'LC_ADDRESS': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_NUMERIC': 'de_DE.UTF-8', 'GTK_MODULES': '', 'SNAP_COOKIE': '9LdWnYVmrqQ114KbhWksjyRbLxR1w5lYSVD0djvSvmNW', 'WINDOWPATH': '2', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'QT_IM_MODULE': 'xim', 'XMODIFIERS': '@im=ibus', 'IM_CONFIG_PHASE': '2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'SNAP_REEXEC': '', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop', 'SHLVL': '1', 'XDG_SEAT': 'seat0', 'LC_TELEPHONE': 'de_DE.UTF-8', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'ubuntu', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LOGNAME': 'satish', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'XDG_RUNTIME_DIR': '/run/user/1000/snap.pycharm-community', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SNAP_CONTEXT': '9LdWnYVmrqQ114KbhWksjyRbLxR1w5lYSVD0djvSvmNW', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PATH': '/home/satish/Repos/Flask/assessment_api/test/.tox/py36/bin:/home/satish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'SNAP_VERSION': '2019.3.3', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'SESSION_MANAGER': 'local/satish:@/tmp/.ICE-unix/3030,unix/satish:/tmp/.ICE-unix/3030', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_IM_MODULE': 'ibus', 'LC_TIME': 'de_DE.UTF-8', '_': '/usr/bin/tox', 'PYTHONHASHSEED': '3877791078', 'VIRTUAL_ENV': '/home/satish/Repos/Flask/assessment_api/test/.tox/py36'}
+
+appdirs==1.4.3
+certifi==2019.11.28
+chardet==3.0.4
+Click==7.0
+distlib==0.3.0
+filelock==3.0.12
+Flask==1.0.2
+idna==2.9
+importlib-metadata==1.5.0
+importlib-resources==1.2.0
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+packaging==20.1
+pkg-resources==0.0.0
+pluggy==0.13.1
+py==1.8.1
+py-healthcheck==1.9.0
+pyparsing==2.4.6
+requests==2.23.0
+six==1.14.0
+toml==0.10.0
+tox==3.14.5
+urllib3==1.25.8
+virtualenv==20.0.7
+Werkzeug==1.0.0
+zipp==3.1.0
